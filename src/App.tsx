@@ -12,22 +12,22 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "Ayt, NO?",
-      "Full load sa activities?",
-      "Sunduin kita?",
-      "Hatid din kita?",
-      "What about a strawberry frostie",
+      "No",
+      "Are you sure?",
+      "What if I asked really nicely?",
+      "Pretty please",
+      "With a chocolate rice cake on top",
       "What about a matcha frostie",
-      "G,Boss?HAHA",
-      "SADS",
-      "Alaws na.",
-      "Patay na",
-      "ok ur talking to dember's ghost",
-      "Multuhin kita boss",
-      "Final answer?",
-      "Final na talaga?",
-      "Sure",
-      "SADS :|",
+      "PLEASE POOKIE",
+      "But :*(",
+      "I am going to die",
+      "Yep im dead",
+      "ok ur talking to nathan's ghost",
+      "please babe",
+      ":((((",
+      "PRETTY PLEASE",
+      "Estoy muerto",
+      "No :(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +38,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">YESSSSS,thanks Boss ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
         </>
       ) : (
         <>
@@ -46,7 +46,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Uuwi ka ba sa Friday??</h1>
+          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
